@@ -1,52 +1,47 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img src="https://i.imgur.com/uxaU4CG.png" height="30%" width="60%" alt="Kali Linux Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+<h1>Encrypting files with ccrypt on Kali Linux</h1>
+This tutorial outlines the implementation of encrypting files on Kali Linux.<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Computer)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+- Oracle VirtualBox (Virtual Machines/Computer)
+- Kali Linux Shell
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
-
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-
-<h2>Deployment and Configuration Steps</h2>
+<h2>Encryption Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/4b4Advn.png" height="80%" width="80%" alt="Encryption Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Encryption
+
+1. Run the following command in the Kali Linux command prompt. (ccrypt encryptiontest)
+2. When prompted to enter an encryption key, type 1827390, and then press Enter. When prompted to reenter the encryption key, type 1827390, and then press Enter.
+3. Now view your file in the directory again. Run ls to list the files.
+4. Run the following command to open the cpt file. (nano encryptiontest.cpt)
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/XcR4sgE.png" height="80%" width="80%" alt="Encryption Display Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The displayed content is cyphertext: a string of random letters, numbers, and symbols representing the encrypted content.
+
+1. Press Ctrl+X to exit the editor.
+2. In the command line, run the following command to display the content od the encrypted file. (ccat encryptiontest.cpt)
+3. When prompted to enter the decryption key, type 1827390 or any other key that you used for encryption, and then press Enter.
+
+You will now be able to see the actual content of the file.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
